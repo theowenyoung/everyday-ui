@@ -123,7 +123,7 @@ server.get("/*", async (req, res) => {
 
   res.send(`
            <!DOCTYPE html>
-           <html ${helmet.htmlAttributes.toString()} lang="en">
+           <html ${helmet.htmlAttributes.toString()} lang="zh">
            <head>
            <script>window.isoData = ${serialize(isoData)}</script>
            <script>window.lemmyConfig = ${serialize(config)}</script>
