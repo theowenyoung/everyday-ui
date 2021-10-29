@@ -141,7 +141,7 @@ export class CommunityForm extends Component<
                   value={this.state.communityForm.name}
                   onInput={linkEvent(this, this.handleCommunityNameChange)}
                   required
-                  minLength={3}
+                  minLength={1}
                   pattern="[a-z0-9_]+"
                   title={i18n.t("community_reqs")}
                 />
@@ -169,7 +169,7 @@ export class CommunityForm extends Component<
                 onInput={linkEvent(this, this.handleCommunityTitleChange)}
                 class="form-control"
                 required
-                minLength={3}
+                minLength={1}
                 maxLength={100}
               />
             </div>
