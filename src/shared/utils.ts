@@ -421,7 +421,7 @@ export function getLanguage(override?: string): string {
       ? myUserInfo.local_user_view.local_user.lang
       : "zh");
 
-  if (lang == "browser" && isBrowser()) {
+  if (lang == "browser") {
     return "zh";
   } else {
     return lang;
