@@ -108,7 +108,7 @@ i18next.init({
 
   // initImmediate: false,
   lng: getLanguage(),
-  fallbackLng: "zh",
+  fallbackLng: "en",
   resources,
   interpolation: { format },
 });
