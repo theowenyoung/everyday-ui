@@ -77,7 +77,7 @@ export class ListingTypeSelect extends Component<
             {i18n.t("local")}
           </label>
         )}
-        <label
+        {/* <label
           title={i18n.t("all_description")}
           className={`pointer btn btn-outline-secondary ${
             (this.state.type_ == ListingType.All && "active") ||
@@ -94,7 +94,7 @@ export class ListingTypeSelect extends Component<
             onChange={linkEvent(this, this.handleTypeChange)}
           />
           {i18n.t("all")}
-        </label>
+        </label> */}
       </div>
     );
   }
