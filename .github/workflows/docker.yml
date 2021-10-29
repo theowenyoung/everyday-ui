@@ -1,7 +1,8 @@
 name: CI to Docker Hub
 
 on:
-  push: main
+  push:
+    - main
 
 jobs:
   build:
