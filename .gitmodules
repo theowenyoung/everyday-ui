@@ -1,4 +1,4 @@
 [submodule "lemmy-translations"]
 	path = lemmy-translations
-	url = https://github.com/theowenyoung/lemmy-translations
+	url = https://github.com/theowenyoung/every-day-translations
 	branch = main
